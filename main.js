@@ -12,7 +12,15 @@ const fetchPokemon = () => {
 
         .then(data => {
             console.log(data)
-
+            const pokemon = {};
+            pokemon['name'] = data.name;
+            pokemon['id'] = data.id;
+            pokemon['image'] = data.sprites['front_default'];
+            pokemon['type'] = '';
+            data.types.forEach((type) => {
+                pokemon['type'] = pokemon['type'] + ", " + type.type.name;
+            })
+            console.log(pokemon)
         });
 
 };
