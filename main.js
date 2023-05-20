@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     addSubmitListener();
 
 })
+
 function displayArtists() {
     fetch("http://localhost:3000/artdata")
         .then(res => res.json())
@@ -64,11 +65,17 @@ function renderOneArtist(artist) {
     const artistImg = document.createElement('img');
     const artistDiv = document.createElement('div');
     const artistMenu = document.getElementById("artist-menu");
+
     artistImg.src = artist.image;
 
 
     artistMenu.append(artistDiv);
     artistDiv.append(artistImg);
+
+    artistImg.addEventListener("mouseover", () => showArtistDetails(artist));
+
+
+
 
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "delete";
@@ -79,6 +86,24 @@ function renderOneArtist(artist) {
 
 
 }
+
+function addGlow(artists) {
+    const colors = ['red', 'blue', 'green'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    artistImage.style.borderColor = randomColor;
+    artistImage.style.borderWidth = '5px';
+    artistImage.style.borderStyle = 'solid';
+    artistImage.style.transition = 'border-color 0.5s, border-width 0.5s';
+
+    setTimeout(() => {
+        artistImage.style.borderColor = '';
+        artistImage.style.borderWidth = '';
+        artistImage.style.borderStyle = '';
+        artistImage.style.transition = '';
+    }, 1000);
+}
+
 
 function showArtistDetails(artist) {
     const detailImage = document.getElementById("detail-image");

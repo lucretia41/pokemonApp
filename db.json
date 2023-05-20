@@ -2,151 +2,187 @@
   "artdata": [
     {
       "id": "1",
-      "objectDate": 1888,
+      "date": 1888,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1494.jpg",
       "objectName": "oleanders",
       "title": "Oleanders",
-      "artistDsiplayName": "Vincent van Gogh"
+      "name": "Vincent van Gogh"
     },
-
     {
       "id": "2",
-      "objectDate": 1890,
+      "date": 1890,
       "isHighlight": true,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP346474.jpg",
       "objectName": "Irises",
       "title": "Irises",
-      "artistDisplayName": "Vincent van Gogh"
+      "name": "Vincent van Gogh"
     },
-
     {
       "id": "3",
-      "objectDate": 1887,
+      "date": 1887,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
       "objectName": "Self Portrait with straw hat",
       "title": "Self Portrait with straw hat",
-      "artistDisplayName": "Vincent van Gogh"
+      "name": "Vincent van Gogh"
     },
-
     {
       "id": "4",
-      "objectDate": 1888,
+      "date": 1888,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1947.jpg",
       "objectName": "Shoes",
       "title": "Shoes",
-      "artistDisplayName": "Vincent van Gogh"
+      "name": "Vincent van Gogh"
     },
     {
       "id": "5",
-      "objectDate": 1889,
+      "date": 1889,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1567.jpg",
       "objectName": "Wheat Field",
       "title": "Wheat Field with Cypresses",
-      "artistDisplayName": "Vincent van Gogh"
+      "name": "Vincent van Gogh"
     },
-
     {
       "is": "6",
-      "objectDate": 1889,
+      "date": 1889,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP130999.jpg",
       "objectName": "Cypresses",
       "title": "Cypresses",
-      "artistDisplayName": " Vincent van Gogh"
+      "name": " Vincent van Gogh"
     },
-
     {
       "id": "7",
-      "objectDate": 1874,
+      "date": 1874,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1565.jpg",
       "objectName": "The Rehearsal of the Ballet Onstage",
       "title": "The Rehearsal of the Ballet Onstage",
-      "artistDisplayName": "Edgar Degas"
+      "name": "Edgar Degas"
     },
-
     {
       "id": "8",
-      "objectDate": 1874,
+      "date": 1874,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-20101-001.jpg",
       "objectName": "The Dance Class",
       "title": "The Dance Class",
-      "artistDisplayName": "Edgar Degas"
+      "name": "Edgar Degas"
     },
-
     {
       "id": "9",
-      "objectDate": 1890,
+      "date": 1890,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-033.jpg",
       "objectName": "Dancers, Pink and Green",
       "title": "Dancers, Pink and Green",
-      "artistDisplayName": "Edgar Degas"
+      "name": "Edgar Degas"
     },
-
     {
       "id": "10",
-      "objectDate": 1632,
+      "date": 1632,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP146479.jpg",
       "objectName": "Man in a Turban",
       "title": "Man in a Turban",
-      "artistDisplayName": "Rembrandt van Rijn"
+      "name": "Rembrandt van Rijn"
     },
-
     {
       "id": "11",
-      "objectDate": 1650,
+      "date": 1650,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145920.jpg",
       "objectName": "Hendrickje Stoffels",
       "title": "Hendrickje Stoffels",
-      "artistDisplayName": "Rembrandt van Rijn"
+      "name": "Rembrandt van Rijn"
     },
-
     {
       "id": "12",
-      "objectDate": 1630,
+      "date": 1630,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145931.jpg",
       "objectName": "Rembrandt as a Young Man",
       "title": "Rembrandt as a Young Man",
-      "artistDisplayName": "Rembrandt van Rijn"
+      "name": "Rembrandt van Rijn"
     },
-
     {
       "id": "13",
-      "objectDate": 1662,
+      "date": 1662,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
       "objectName": "Young Woman with a Water Pitcher",
       "title": "Young Woman with a Water Pitcher",
-      "artistDisplayName": "Johannes Vermeer "
+      "name": "Johannes Vermeer "
     },
-
     {
       "id": "14",
-      "objectDate": 1656,
+      "date": 1656,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP354965.jpg",
       "objectName": "Young Woman with a Lute",
       "title": "Young Woman with a Lute",
-      "artistDisplayName": "Johannes Vermeer"
+      "name": "Johannes Vermeer"
     },
-
     {
       "id": "15",
-      "objectDate": 1885,
+      "date": 1885,
       "isHighlight": false,
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP131000.jpg",
       "objectName": "Race Horses",
       "title": "Race Horses",
-      "artistDisplayName": "Edgar Degas"
+      "name": "Edgar Degas"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "",
+      "title": "",
+      "id": "EODZQOM"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "1",
+      "title": "",
+      "id": "6CwQn8u"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "",
+      "title": "",
+      "id": "n4Xt4EJ"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "1",
+      "title": "",
+      "id": "AqjFjW4"
+    },
+    {
+      "name": "",
+      "image": "https://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "date": "",
+      "title": "",
+      "id": "RrCGmmb"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "2",
+      "title": "",
+      "id": "pi3aH7c"
+    },
+    {
+      "name": "",
+      "image": "",
+      "date": "",
+      "title": "",
+      "id": "bDGtZqs"
     }
   ]
 }
