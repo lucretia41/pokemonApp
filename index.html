@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon</title>
-    <script src="main.js" defer></script>
+    <title>Star Wars Movies</title>
+  <script src="main.js"defer></script>
     <link rel="stylesheet" href="style.css">
 
 
 </head>
 <body>
-   <ol id="pokedex">
-    
-   </ol>
+  <button id="enter">Enter</button>
+  <header>
+    <h3>Artists</h3>
+  </header>
+    <form> 
+      <input "text" placeholder="Search">
+      <input type="submit">
+    </form>
+<img src="" alt="Museum Banner">
+<div id ="artist-menu">
+
+</div>
+  
+<div id="artist-detail">
+  <img id="detail-image" src="" alt="Insert Name Here" />
+  <h2 id="detail-name"">Insert Name Here</h2>
+  <!-- <h3 id="detail-restaurant">Insert Restaurant Here</h3> -->
+</div>
+
+<h3>Date:</h3>
+<p>
+  <span id='detail-date'>Insert rating here</span> / 10
+</p>
+<h3>Title:</h3>
+<p id='detail-title'>
+  Insert title here
+</p>
+
+<!-- New Ramen Form -->
+<form id="new-artist">
+  <h4>Add New Artist</h4>
+  <label for="name">Name: </label>
+  <input type="text" name="name" id="new-name" />
+  <!-- <label for="restaurant">Restaurant: </label> -->
+  <!-- <input type="text" name="restaurant" id="new-restaurant" /> -->
+  <label for="image">Image: </label>
+  <input type="text" name="image" id="new-image" />
+  <label for="date">Date: </label>
+  <input type="number" name="date" id="new-date" />
+  <label for="new-title">Title: </label>
+  <textarea name="new-title" id="new-comment"></textarea>
+  <input type="submit" value="Create" />
+</form>
 
 </body>
 </html>
